@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title="Landing Page for Check Into Cash!"></title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript">
+
+  </script>
+</head>
+<body>
+  <!--
+  Semantic Key:
+  Class="select" is all the buttons that roll over.
+  "Utilities-r" these are the graphics with green attached.
+  I wanted to put more text in the green areas like a quick
+  explanation of what you were looking at, or maybe a CIC logo.
+  on the green field.
+  Class="Land-Output" is the main lower area containing the
+  switching graphic and text.
+  2 break points for 3 different screens.
+  I was having problems with my list item / image compound
+  selectors so I abaondoned that and moved to an ID based
+  set of selectors.
+  The main ID for the switching image was default-last (JS)
+  the main ID for changing the text was default-title (JS)
+  Lots of repeat functions- there was probably a way to do
+  that better, but I had a car emergency this weekend and I
+  was running out of time.
+  I want this position- it will really streach me as a developer
+  and I really want to use these abilities, not leave them on
+  the shelf!
+  Thanks again for your consideration!
+  -->
+  <div class="land-background">
+    <div class="land-container">
+      <div class="all-select">
+      <!--<section id="lselector">
+          <ul>
+              <li><img src="utilities.jpg"></li>
+              <li><img src="medical-emergency.jpg"></li>
+              <li><img src="grocery-shopping.jpg"></li>
+              <li><img src="car-repair.jpg"></li>
+              <li><img src="home-repair.jpg"></li>
+              <li><img src="h-family-needs.jpg"></li>
+          </ul>-->
+        <div class ="select" id="utility">
+          <a href="#end">
+          <img src="utilities-r.jpg" id="utility-img" alt="utilities" onclick="selectUtility();">
+          </a>
+        </div>
+        <div class ="select" id="medical">
+          <a href="#end">
+            <img src="medical-r.jpg" id="medical-img" alt="medical" onclick="selectMedical();">
+          </a>
+        </div>
+        <div class ="select" id="grocery">
+          <a href="#end">
+            <img src="grocery-r.jpg" id="grocery-img" alt="grocery" onclick="selectGrocery();">
+          </a>
+        </div>
+        <div class ="select" id="car-repair">
+          <a href="#end">
+            <img src="car-r.jpg" id="car-repair-img" alt="car repair" onclick="selectCar();">
+          </a>
+        </div>
+        <div class ="select" id="home-repair">
+          <a href="#end">
+            <img src="home-r.jpg" id="home-repair-img" alt="home repair" onclick="selectHome();">
+          </a>
+        </div>
+        <div class ="select" id="family">
+          <a href="#end">
+            <img src="family-r.jpg" id="family-img" alt="family needs" onclick="selectFamily();">
+          </a>
+        </div>
+      </div>
+      <div class="land-output" id="output1">
+        <div class="land-output-img" id="default-last1">
+          <img id="default-last" src="default.jpg" alt="need help?" onclick="selectDefault();">
+        </div>
+
+        <div class="land-output-text">
+          <h2 class="land-title" id="default-title">Take a Survey to Win!</h2>
+
+          <p>If your situation has changed, let us know by taking our survey.
+          That way we can make products that are more responsive to your needs.
+          It's a new time with new challenges. So in honor of the new year,
+          we will select 17 people who filled out the survey, to win $100!</p>
+
+          <div class="cta">
+            <a id="cta1" name="end" href="https://www.behance.net/rawlings">Enter Now!</a>
+          </div>
+        </div>
+      </div>
+        <div class="preload-images"></div>
+
+
+
+    </div>
+    <div class="footer">
+      </section><name="end">
+770-778-3974 | <a  href="">unsubscribe</a>
+    </div>
+
+  </div>
+ <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+  <script src='js/main.js'></script>
+
+</body>
+</html>
