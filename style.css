@@ -1,0 +1,203 @@
+.land-background {
+  background: #eee;
+  padding: 10px;
+}
+.land-container {
+  max-width: 390px;
+  background: white;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.select img {
+  max-width: 780px;
+
+}
+.all-select {
+  max-width: 390px;
+  background: white;
+  margin: 0 auto;
+  overflow: hidden;
+
+}
+.land-output {
+  max-width: 390px;
+  background: white;
+  margin: 0 auto;
+  overflow: hidden;
+
+}
+.land-output-img {
+  float: left;
+  width: auto;
+}
+.land-output-text {
+  float: left;
+  width: auto;
+  padding: 2px;
+  border: 1px;
+  text-align: center;
+  background-image: url("../CI2C-logo-80.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 837px) {
+  .land-container {
+    max-width: 390px;
+    }
+  .all-select {
+    max-width: 390px;
+    }
+    .land-output-img img {
+      width: 390px;
+      height: 270px;
+    }
+}
+@media ( min-width : 838px ) and (max-width : 1248.182px ){
+  .land-container {
+    max-width: 784px;
+  }
+  .all-select {
+    max-width: 784px;
+  }
+  #utility, #medical, #grocery, #car-repair, #home-repair, #family {
+    float: left;
+    width: 390px;
+    height: 260px;
+    margin: 1px;
+    overflow: hidden;
+  }
+  .all-select img {
+	   transition: transform .2s ease-in-out;
+   }
+  .all-select img:hover {
+	    transform: translate3d(-390px, 0px, 0px);
+  }
+
+  /*img {
+    float: left;
+    width: 390px;
+    height: 260px;
+  }*/
+  .land-output {
+    max-width: 785px;
+    width: 785px;
+    height: 300px;
+  }
+  .land-output-img {
+    float: left;
+    clear: left;
+    width: 390px;
+    height: 260px;
+    margin: 1px;
+  }
+  .land-output-img img {
+    width: 390px;
+  }
+  .land-output-text {
+    float: right;
+    width: 385px;
+    height: 260px;
+    padding: 2px;
+  }
+}
+@media (min-width : 1249px ){
+  .land-container {
+    max-width: 1176px;
+  }
+  .all-select {
+    max-width: 1176px;
+  }
+  #utility, #medical, #grocery, #car-repair, #home-repair, #family {
+    float: left;
+    width: 390px;
+    height: 260px;
+    margin: 1px;
+    overflow: hidden;
+  }
+  .all-select img {
+     transition: transform .2s ease-in-out;
+   }
+  .all-select img:hover {
+      transform: translate3d(-390px, 0px, 0px);
+  }
+
+  /*img {
+    float: left;
+    width: 390px;
+    height: 260px;
+  }*/
+  .land-output {
+    max-width: 1176px;
+    width: 1176px;
+    height: 480px;
+  }
+  .land-output-img {
+    float: left;
+    width: 600px;
+    height: 480px;
+    margin: 1px;
+  }
+  .land-output-img img {
+    width: 600px;
+  }
+  .land-output-text {
+    float: right;
+    width: 550px;
+    padding: 10px;
+  }
+}
+
+#vid {
+  padding: 0;
+}
+
+a {
+  color: #3D87F5
+}
+h1 {
+  font-family: sans-serif;
+}
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+p {
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.cta {
+  margin: 10px 20px;
+}
+#cta1 {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #49d661;
+  color: white;
+  padding: 10px 20px;
+  margin: auto;
+}
+.preload-images {
+  display: none;
+  width: 0;
+  height: 0;
+  background: url(../h-family-needs.jpg),
+              url(../car-repair.jpg),
+              url(../grocery-shopping.jpg),
+              url(../home-repair.jpg),
+              url(../medical-emergency.jpg),
+              url(../utilities.jpg);
+}
+.footer {
+  @extend: .email-container;
+  background: none;
+  text-align: center;
+  padding: 20px;
+  font-size: 10px;
+}
