@@ -14,3 +14,9 @@ I really want this position!
 Warren Rawlings
 770-778-3974
 rawlings.warren@gmail.com
+
+
+p.s.
+The Landing Page has a big comment section explaining some of the choices 
+I made. The emails have normal and CSS INLINE versions for direct sending.
+
